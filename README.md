@@ -1,30 +1,38 @@
-# React + TypeScript + Vite
+# NightSkyTodo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+NightSkyTodo is a modern todo application designed with a dark theme, perfect for managing your tasks during nighttime coding sessions. This application allows you to add, edit, mark as complete, and remove tasks easily.
 
-Currently, two official plugins are available:
+![image](https://github.com/surajshelke2/NightSkyTodo/assets/91287011/fbf0ce7b-873d-4141-83d4-42a84369a4c7)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **Dark Theme**: NightSkyTodo comes with a visually appealing dark theme, providing a comfortable interface for late-night productivity.
+- **Task Management**: Add, edit, mark tasks as complete, and remove tasks with ease.
+- **Dynamic Button Styling**: Vibrant and dynamic button styling enhances user interaction.
+- **Responsive Design**: NightSkyTodo is responsive and works seamlessly on various screen sizes.
 
-- Configure the top-level `parserOptions` property like this:
+## Technologies Used
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+- React.js
+- TypeScript
+- Tailwind CSS
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Getting Started
+
+To run NightSkyTodo locally, follow these steps:
+
+1. Clone this repository: `git clone https://github.com/yourusername/NightSkyTodo.git`
+2. Navigate to the project directory: `cd NightSkyTodo`
+3. Install dependencies: `npm install`
+4. Run the development server: `npm start`
+
+NightSkyTodo will be available at `http://localhost:3000`.
+
+## Contributing
+
+Contributions are welcome! Feel free to open issues or submit pull requests to help improve this project.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
